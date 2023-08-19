@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/RenderWindow.hpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+
+/home/hadibaal/root/playground/cmake-testing/src/main.cpp
+iostream
+-
+SDL2/SDL.h
+/home/hadibaal/root/playground/cmake-testing/src/SDL2/SDL.h
+SDL2/SDL_image.h
+/home/hadibaal/root/playground/cmake-testing/src/SDL2/SDL_image.h
+RenderWindow.hpp
+/home/hadibaal/root/playground/cmake-testing/src/RenderWindow.hpp
+
+/home/hadibaal/root/playground/cmake-testing/src/renderwindow.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+iostream
+-
+RenderWindow.hpp
+/home/hadibaal/root/playground/cmake-testing/src/RenderWindow.hpp
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hadibaal/root/playground/cmake-testing/main.cpp
+iostream
+-
+SDL2/SDL.h
+/home/hadibaal/root/playground/cmake-testing/SDL2/SDL.h
+SDL2/SDL_image.h
+/home/hadibaal/root/playground/cmake-testing/SDL2/SDL_image.h
+

@@ -1,0 +1,3 @@
+/home/hadibaal/root/playground/cmake-testing/build/CMakeFiles/edit_cache.dir
+/home/hadibaal/root/playground/cmake-testing/build/CMakeFiles/rebuild_cache.dir
+/home/hadibaal/root/playground/cmake-testing/build/CMakeFiles/sdl_runner.dir

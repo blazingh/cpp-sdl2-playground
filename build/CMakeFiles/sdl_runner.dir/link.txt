@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x -rdynamic CMakeFiles/sdl_runner.dir/src/main.cpp.o CMakeFiles/sdl_runner.dir/src/renderwindow.cpp.o -o sdl_runner  -lSDL2 -lSDL2_image -lSDL2 -lSDL2_image 
