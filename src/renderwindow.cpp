@@ -28,7 +28,7 @@ RenderWindow::RenderWindow(const char* title, int width, int height)
 SDL_Texture* RenderWindow::loadTexture(const char* filename)
 {
 
-    SDL_Texture* texture = NULL
+    SDL_Texture* texture = NULL;
     texture = IMG_LoadTexture(renderer, filename);
 
     if (texture == NULL)

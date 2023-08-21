@@ -22,13 +22,3 @@ SDL2/SDL_image.h
 RenderWindow.hpp
 /home/hadibaal/root/playground/cmake-testing/src/RenderWindow.hpp
 
-/home/hadibaal/root/playground/cmake-testing/src/renderwindow.cpp
-SDL2/SDL.h
--
-SDL2/SDL_image.h
--
-iostream
--
-RenderWindow.hpp
-/home/hadibaal/root/playground/cmake-testing/src/RenderWindow.hpp
-

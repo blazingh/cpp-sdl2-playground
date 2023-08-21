@@ -20,6 +20,8 @@ int main(int argc, char* argv[])
 
     RenderWindow window("what will we do", 640, 480);
 
+    SDL_Texture* texture = window.loadTexture("../res/gfx/textures/Texture_128x128_50.png");
+
     bool running = true;
 
     SDL_Event event;
@@ -33,6 +35,9 @@ int main(int argc, char* argv[])
                 running = false;
             }
         }
+        window.clear();
+        window.render(texture);
+        window.display();
     }
 
     window.cleanUp();
